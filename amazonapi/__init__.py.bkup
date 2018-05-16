@@ -1,0 +1,224 @@
+# -*- coding: utf-8 -*-
+import sys
+from imp import reload
+reload(sys)
+# sys.setdefaultencoding('utf8')
+import platform
+import logging
+from requests import Request, Session
+import time
+import lxml.html
+import datetime
+
+__version__ = '1.0.0'
+Version = __version__  # for backware compatibility
+
+try:
+    from logging import NullHandler
+except ImportError:
+    class NullHandler(logging.Handler):
+
+        def emit(self, record):
+            pass
+
+
+log = logging.getLogger('amazonapi')
+
+if not log.handlers:
+    log.addHandler(NullHandler())
+
+UserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+
+def get_version():
+    return __version__
+
+
+def set_stream_logger(level=logging.DEBUG, format_string=None):
+    log.handlers = []
+
+    if not format_string:
+        format_string = "%(asctime)s %(name)s [%(levelname)s]:%(message)s"
+
+    log.setLevel(level)
+    fh = logging.StreamHandler()
+    fh.setLevel(level)
+    formatter = logging.Formatter(format_string)
+    fh.setFormatter(formatter)
+    log.addHandler(fh)
+
+class AmazonScraper(object):
+    
+    def __init__(self,locale=None):
+        self.domain = self._get_domain(locale)
+        self.method = "GET"
+        self.request = None
+        self.response = None
+        self.timeout = 10
+        self.proxies = dict()
+        self.session = Session()
+        self._time = time.time()
+        self.response_html = None
+        self.response_dict = dict()
+        self.is_captcha_in_response = False
+        self.proxy_checker = dict()
+        self.current_proxy = ""
+
+    def scrape(self,url):
+        self._reset()
+        self._execute(url)
+        return self.response_dict
+
+    def _reset(self):
+        self.is_captcha_in_response = False
+        self.response_dict = dict()
+        self.response = None
+        self.response_html = None
+        self.request = None
+
+    def change_proxy(self,proxy):
+        self.session = Session()
+        self.proxies.update({"https":proxy})
+
+
+    def _execute(self, url):
+        "Executes the HTTP request."
+        log.debug('execute: url=%s' % (url))
+
+        self.build_request(url)
+        self.execute_request()
+        self.process_response()
+
+        log.debug('total time=%s' % (time.time() - self._time))
+
+        return self.response.text
+
+    def build_request(self, url):
+        headers = self.build_request_headers(url)
+        headers.update({'User-Agent': UserAgent})
+
+        request = Request(self.method,
+                          url,
+                          headers=headers
+                          )
+
+        self.request = request.prepare()
+
+    def build_request_headers(self, verb):
+        return {}
+
+    def build_request_data(self, verb, data, verb_attrs):
+        return ""
+
+    def execute_request(self):
+        
+        log.debug("REQUEST : %s %s"
+                  % ( self.request.method, self.request.url))
+        log.debug('headers=%s' % self.request.headers)
+        log.debug('body=%s' % self.request.body)
+
+
+        self.response = self.session.send(self.request,
+                                          verify=True,
+                                          proxies=self.proxies,
+                                          timeout=self.timeout,
+                                          allow_redirects=True
+                                          )
+
+        log.debug('elapsed time=%s' % self.response.elapsed)
+        log.debug('status code=%s' % self.response.status_code)
+        log.debug('headers=%s' % self.response.headers)
+        log.debug('content=%s' % self.response.text)
+
+    def _unicode_text(self,text):
+        return text.encode("ascii","ignore")
+
+    def _is_prime(self,hxs):
+        prime_strings = ["Dispatched from and sold by Amazon","Dispatched from Amazon","sold by Amazon","Fulfilled by Amazon"]
+        is_prime = False
+        for prime_string in prime_strings:
+            if len(hxs.xpath('//*[contains(text(),"%s")]' % (prime_string)))>0:
+                is_prime = True
+                break
+        self.response_dict.update({"is_prime":is_prime})
+
+    def _in_stock(self,hxs):
+        stock_strings = ["In stock.","left in stock"]
+        in_stock = False
+        for stock_string in stock_strings:
+            if len(hxs.xpath('//*[contains(text(),"%s")]' % (stock_string)))>0:
+                in_stock = True
+                break
+        self.response_dict.update({"in_stock":in_stock})
+
+
+    def _get_price(self,hxs):
+        try:
+            price_xpaths = ['//span[@id="priceblock_ourprice"]/text()','//span[@id="priceblock_saleprice"]/text()']
+            price_found = False
+            for xpath in price_xpaths:
+                price = hxs.xpath(xpath)
+                if len(price)>0:
+                    price = price[0]
+                    price_found = True
+                    break
+            if price_found == False:
+                price = ""
+            self.response_dict.update({"price":price})
+        except:
+            log.debug("price not found")
+
+    def _parse_response(self):
+        if "Robot Check" in self.response_html.decode('UTF-8'):
+            print("captcha found")
+            # f = open("captcha.html","wb")
+            # f.write(self.response_html)
+            # f.close()
+            self.is_captcha_in_response = True
+        elif self.response_html:
+            doc  = lxml.html.document_fromstring(self.response_html)
+            self._get_price(doc)
+            if "price" in  self.response_dict and len(self.response_dict["price"].strip())>0:
+                print("price inside code: ",self.response_dict["price"]," len: ",len(self.response_dict["price"].strip()))
+                self._is_prime(doc)
+            else:
+                print("price not found and so we are not scraping prime")
+            self._in_stock(doc)
+
+    def _parse_response2(self):
+        if "Robot Check" in self.response_html.decode('UTF-8'):
+            print("captcha found")
+            # f = open("captcha.html","wb")
+            # f.write(self.response_html)
+            # f.close()
+            self.is_captcha_in_response = True
+        elif self.response_html:
+            doc  = lxml.html.document_fromstring(self.response_html)
+            ip = doc.xpath('//font[@size="5"]/b/text()')
+            print("ip: ",ip)
+            if len(ip)>0:
+                self.proxy_checker[self.current_proxy] = ip[0].strip()
+            # f_name = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+            # f = open(f_name,"wb")
+            # f.write(self.response_html)
+            # f.close()
+
+    def process_response(self):
+        if self.response.status_code==200:
+            self.response_html = self._unicode_text(self.response.text)
+            self._parse_response()
+  
+
+    def _get_domain(self,locale):
+        DOMAINS = {
+                'CA': 'ca',
+                'DE': 'de',
+                'ES': 'es',
+                'FR': 'fr',
+                'IN': 'in',
+                'IT': 'it',
+                'JP': 'co.jp',
+                'UK': 'co.uk',
+                'US': 'com',
+                'CN': 'cn'
+            }
+        return DOMAINS[locale]
