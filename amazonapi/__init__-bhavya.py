@@ -37,7 +37,6 @@ class AmazonScraper(object):
         self.response_code = None
         self.get_prime_detail = False
         self.prime_price = ''
-        self.in_stock = False
         self.is_prime = False
         self.asin = None
         self.need_to_fetch_prime_further = True
@@ -102,12 +101,11 @@ class AmazonScraper(object):
         try:
             print("insedie _execute2")
             self.response = urllib2.urlopen(url,timeout=5)
-            print("self.response",self.response)
-            # raw_input("self.response")
+            print("self.response")
         except Exception as e:
             print(e)
             res = {}
-            if "503" in str(e) or "urlopen error timed out" in str(e):
+            if "503" in str(e):
                 res["503"] = True
             return res
         self.process_response()
@@ -185,26 +183,24 @@ class AmazonScraper(object):
             price_found = False
             for xpath in price_xpaths:
                 price = hxs.xpath(xpath)
-                print("price xpath checking",xpath,price)
                 if len(price)>0:
                     price = price[0]
                     price_found = True
                     break
             if price_found == False:
                 price = ""
-            print("scraped price",price)
             self.response_dict.update({"price":price})
         except:
             log.debug("price not found")
 
     def _get_prime_price(self,hxs):
         try:
-            self.in_stock = False
+            print('getting prime prices')
             price_xpaths = ["//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()"]
             price_found = False
             for xpath in price_xpaths:
                 price = hxs.xpath(xpath)
-                print("price xpath",xpath,len(price))
+                print("xpath and price",price,len(price))
                 if len(price)>0:
                     price = price[0].strip()
                     price_found = True
@@ -213,17 +209,6 @@ class AmazonScraper(object):
                     break
             if price_found == False:
                 price = ""
-            else:
-                stock_xpaths = ['//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()']
-                for xpath in stock_xpaths:
-                    stock = hxs.xpath(xpath)
-                    print("stock xpath",xpath,len(stock))
-                    if len(stock)>0:
-                        stock = ''.join(stock)
-                        stock = stock.strip().replace("\n","").replace(" ","")
-                        if "shippingratesandreturnpolicy" in stock.lower():
-                            self.in_stock = True
-                            break
             self.prime_price = price
         except:
             log.debug("price not found")
@@ -288,12 +273,15 @@ class AmazonScraper(object):
 
     def process_response(self):
         self.response_code = self.response.code
+        print("process_response",self.response_code)
         if self.response.code==200:
             # self.response_html = self._unicode_text(self.response.read())
             self.response_html = self.response.read()
+            print("self.get_prime_detail",self.get_prime_detail)
             if self.get_prime_detail == False:
                 self._parse_response()
             else:
+                print("insedie process_response")
                 self._update_response()
   
 

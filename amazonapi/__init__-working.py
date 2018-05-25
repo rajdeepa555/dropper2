@@ -37,10 +37,7 @@ class AmazonScraper(object):
         self.response_code = None
         self.get_prime_detail = False
         self.prime_price = ''
-        self.in_stock = False
-        self.is_prime = False
         self.asin = None
-        self.need_to_fetch_prime_further = True
 
 
     def _init(self):
@@ -54,14 +51,18 @@ class AmazonScraper(object):
         return self.response_dict
 
     def scrape_with_error(self,url):
-        print("inside scrape_with_error")
         self._reset()
         r = self._execute2(url)
         if r and "503" in r:
             self.response_dict["503"] = True
         return self.response_dict
 
-
+    def scrape_for_prime(self,url):
+        self._reset()
+        r = self._execute(url)
+        if r and "503" in r:
+            self.response_dict["503"] = True
+        return self.prime_price
 
     def _reset(self):
         self.is_captcha_in_response = False
@@ -100,14 +101,11 @@ class AmazonScraper(object):
         opener.addheaders = [('User-Agent', ua)]
         urllib2.install_opener(opener)
         try:
-            print("insedie _execute2")
             self.response = urllib2.urlopen(url,timeout=5)
-            print("self.response",self.response)
-            # raw_input("self.response")
         except Exception as e:
             print(e)
             res = {}
-            if "503" in str(e) or "urlopen error timed out" in str(e):
+            if "503" in str(e):
                 res["503"] = True
             return res
         self.process_response()
@@ -129,39 +127,39 @@ class AmazonScraper(object):
                 path = path % (prime_string)
                 if len(hxs.xpath(path))>0:
                     is_prime = True
+                    print("is prime yes....",is_prime,path)
                     break
             if is_prime == True:
                 break
         self.response_dict.update({"is_prime":is_prime})
 
     def _get_prime_from_offer_page(self):
-        if self.asin:
-            url = "https://www.amazon.com/gp/offer-listing/%s?f_new=true&f_primeEligible=true" % (self.asin)
-            headers = {'user-agent': user_agent}
-            # print(headers)
-            r = requests.get(url, headers=headers,proxies={"https":proxy})
-            # print("headers",headers)
-            doc  = lxml.html.document_fromstring(r.content)
-            if_captcha = False
-            if "api-services-support@amazon.com" in r.content or "Robot Captcha" in r.content:
-                if_captcha = True
-                print("Captcha found")
-                # f = open("Captcha.html","wb")
-                # f.write(r.content)
-                # f.close()
-                # raw_input("captcha found")
-            price_list = []
-            price_blocks = doc.xpath('//span[@class="a-size-large a-color-price olpOfferPrice a-text-bold"]/text()')
-            # print("price blocks",price_blocks)
-            count = 0
-            if len(price_blocks)>0:
-                for p_block in price_blocks:
-                    if count == 3:
-                        break
-                    price_list.append(p_block.strip())
-                    count += 1
-            
-            return price_list,if_captcha
+        url = "https://www.amazon.com/gp/offer-listing/%s?%s=true&f_primeEligible=true" % (asin,condition)
+        headers = {'user-agent': user_agent}
+        # print(headers)
+        r = requests.get(url, headers=headers,proxies={"https":proxy})
+        # print("headers",headers)
+        doc  = lxml.html.document_fromstring(r.content)
+        if_captcha = False
+        if "api-services-support@amazon.com" in r.content or "Robot Captcha" in r.content:
+            if_captcha = True
+            print("Captcha found")
+            # f = open("Captcha.html","wb")
+            # f.write(r.content)
+            # f.close()
+            # raw_input("captcha found")
+        price_list = []
+        price_blocks = doc.xpath('//span[@class="a-size-large a-color-price olpOfferPrice a-text-bold"]/text()')
+        # print("price blocks",price_blocks)
+        count = 0
+        if len(price_blocks)>0:
+            for p_block in price_blocks:
+                if count == 3:
+                    break
+                price_list.append(p_block.strip())
+                count += 1
+        
+        return price_list,if_captcha
 
     def _in_stock(self,hxs):
         stock_strings = ["In stock","In Stock","In stock.","In Stock.","left in stock"]
@@ -171,8 +169,11 @@ class AmazonScraper(object):
             for path in xpaths:
                 path = path % (stock_string)
                 get_path = hxs.xpath(path)
+                print("path..",path)
+                print("hxs",get_path)
                 if len(get_path)>0:
                     in_stock = True
+                    print("in stock...........",in_stock,path)
                     break
             if in_stock == True:
                 break
@@ -185,45 +186,31 @@ class AmazonScraper(object):
             price_found = False
             for xpath in price_xpaths:
                 price = hxs.xpath(xpath)
-                print("price xpath checking",xpath,price)
                 if len(price)>0:
+                    print("price expath",xpath)
+                    print("price",price)
                     price = price[0]
+                    print("price",price)
                     price_found = True
                     break
             if price_found == False:
                 price = ""
-            print("scraped price",price)
             self.response_dict.update({"price":price})
         except:
             log.debug("price not found")
 
     def _get_prime_price(self,hxs):
         try:
-            self.in_stock = False
-            price_xpaths = ["//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()"]
+            price_xpaths = ["//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]"]
             price_found = False
             for xpath in price_xpaths:
                 price = hxs.xpath(xpath)
-                print("price xpath",xpath,len(price))
                 if len(price)>0:
-                    price = price[0].strip()
+                    price = price[0]
                     price_found = True
-                    self.prime_price = price
-                    self.is_prime = True
                     break
             if price_found == False:
                 price = ""
-            else:
-                stock_xpaths = ['//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()']
-                for xpath in stock_xpaths:
-                    stock = hxs.xpath(xpath)
-                    print("stock xpath",xpath,len(stock))
-                    if len(stock)>0:
-                        stock = ''.join(stock)
-                        stock = stock.strip().replace("\n","").replace(" ","")
-                        if "shippingratesandreturnpolicy" in stock.lower():
-                            self.in_stock = True
-                            break
             self.prime_price = price
         except:
             log.debug("price not found")
@@ -273,6 +260,22 @@ class AmazonScraper(object):
             self._in_stock(doc)
             self._get_title(doc)
 
+    def _parse_response2(self):
+        if "Robot Check" in self.response_html.decode('UTF-8'):
+            print("captcha found")
+            # f = open("captcha.html","wb")
+            # f.write(self.response_html)
+            # f.close()
+            self.is_captcha_in_response = True
+        elif self.response_html:
+            doc  = lxml.html.document_fromstring(self.response_html)
+            ip = doc.xpath('//font[@size="5"]/b/text()')
+            if len(ip)>0:
+                self.proxy_checker[self.current_proxy] = ip[0].strip()
+            # f_name = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+            # f = open(f_name,"wb")
+            # f.write(self.response_html)
+            # f.close()
 
     def _update_response(self):
         if "Robot Check" in self.response_html.decode('UTF-8'):

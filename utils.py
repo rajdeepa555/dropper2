@@ -71,7 +71,7 @@ def make_amazon_url(asin):
 	return "https://amazon.com/dp/"+str(asin)
 
 def make_amazon_url_for_list_primes(asin):
-	return "https://www.amazon.com/gp/offer-listing/%s?f_primeEligible=true"+str(asin)
+	return "https://www.amazon.com/gp/offer-listing/%s/ref=olp_f_new?ie=UTF8&f_all=true&f_new=true&f_primeEligible=true"%(str(asin))
 
 def is_eligible_for_ebay_update(price,in_stock,is_prime,stock):
 	is_eligible = False

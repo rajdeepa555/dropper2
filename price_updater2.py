@@ -2,7 +2,7 @@ from utils import get_simple_list_from_list_dict, get_value_from_dict, \
 				 make_amazon_url, get_float,get_run_id,make_amazon_url_for_list_primes
 from factory import get_ebayhandler, get_amazonscraper, get_proxyhandler
 from helpers import is_value_empty
-import re, csv
+import re
 
 
 def get_total_no_of_pages(ebay_handler):
@@ -35,40 +35,37 @@ def assign_proxy(amazon_handler,proxy_handler):
 	current_proxy = proxy_handler.get_proxy()
 	amazon_handler.proxies.update({"https":current_proxy})
 
-def scrape_again(amazon_handler,amazon_asin):
-	amazon_handler.get_prime_detail = True
-	amazon_url = make_amazon_url_for_list_primes(amazon_asin)
-	# print("amazon url",amazon_url)
-	res = amazon_handler.scrape_with_error(amazon_url)
-	res["price"] = amazon_handler.prime_price
-	res["is_prime"] = amazon_handler.is_prime
-	res["in_stock"] = amazon_handler.in_stock
-	return res
-
 def get_amazon_info(amazon_asin,amazon_handler,proxy_handler):
 	assign_proxy(amazon_handler,proxy_handler)
+	# amazon_asin = 'B0711MVHVJ'
 	amazon_url = make_amazon_url(amazon_asin)
+	# print("amazon url ",amazon_url)
 	amazon_handler.asin = amazon_asin
 	res = amazon_handler.scrape_with_error(amazon_url)
 	retry = 0
-	if res.get("is_prime") == False or res.get("in_stock") == False or res.get("price") == '':
+	print("res....",res)
+	if res.get("is_prime") == False:
 		# print("is prime false......................................................")
-		res = scrape_again(amazon_handler,amazon_asin)
+		amazon_handler.get_prime_detail = True
+		amazon_url = make_amazon_url_for_list_primes(amazon_asin)
+		resp = amazon_handler.scrape_with_error(amazon_url)
+		res["price"] = amazon_handler.prime_price
+		res["is_prime"] = amazon_handler.is_prime
 
+		# res["is_prime"] = amazon_handler.is_prime
+		# prime_price = aso.scrape_for_prime(amazon_url)
 
 	while res is None or "503" in res or amazon_handler.is_captcha_in_response:
-		print("res in 503",res)
-		if amazon_handler.is_captcha_in_response or "503" in res:
+		if aso.is_captcha_in_response or "503" in res:
 			assign_proxy(amazon_handler,proxy_handler)
-
 			res = amazon_handler.scrape_with_error(amazon_url)
-			if res.get("is_prime") == False or res.get("in_stock") == False or res.get("price") == '':
-				res = scrape_again(amazon_handler,amazon_asin)
-				# amazon_handler.get_prime_detail = True
-				# amazon_url = make_amazon_url_for_list_primes(amazon_asin)
-				# res = amazon_handler.scrape_with_error(amazon_url)
-				# res["price"] = amazon_handler.prime_price
-				# res["is_prime"] = amazon_handler.is_prime
+			# print("res.....",res)
+			if res.get("is_prime") == False:
+				amazon_handler.get_prime_detail = True
+				amazon_url = make_amazon_url_for_list_primes(amazon_asin)
+				res = amazon_handler.scrape_with_error(amazon_url)
+				res["price"] = amazon_handler.prime_price
+				res["is_prime"] = amazon_handler.is_prime
 
 				# res["is_prime"] = amazon_handler.isinstance_prime
 
@@ -124,34 +121,20 @@ def get_ebay_obj_to_update(amazon_info,ebay_id):
 		ebay_obj["StartPrice"] = ebay_price
 	return ebay_obj
 
-def dump_to_csv(csv_instance, amazon_asin ,amazon_info, ebay_info,file_obj):
-	csv_instance.writerow([amazon_asin, amazon_info.get("price"), amazon_info.get("is_prime"),\
-		amazon_info.get("in_stock"), ebay_info.get("StartPrice"), ebay_info.get("Quantity"), ebay_info.get("ItemID") ])
-	print("final....",[amazon_asin, amazon_info.get("price"), amazon_info.get("is_prime"),\
-		amazon_info.get("in_stock"), ebay_info.get("StartPrice"), ebay_info.get("Quantity"), ebay_info.get("ItemID") ])
-	file_obj.flush()
-
 def process_ebay_item(ebay_item,amazon_handler, proxy_handler, \
-					ebay_handler,csv_instance,file_obj):
+					ebay_handler):
 	amazon_asin = get_amazon_asin_from_ebay_dict(ebay_item)
-	# amazon_asin = 'B007HN6USO'
 	amazon_info = get_amazon_info(amazon_asin,amazon_handler,proxy_handler)	
 	ebay_id = ebay_item.get("ItemID")
 	ebay_obj_to_update = get_ebay_obj_to_update(amazon_info,ebay_id)
 	ebay_price_obj = {"Item":ebay_obj_to_update}
-	dump_to_csv(csv_instance, amazon_asin ,amazon_info,ebay_obj_to_update,file_obj)
-	# if amazon_asin in ["B078KMGC11","B00AS8RZZ2","B073ZGCFLL","B0001ZUVAI","B00RXDBOFM","B000UX6OHK","B00OSPE2ZM"]:
-	# raw_input("fasfsf")
-	# is_updated = ebay_handler.set_item_price(item_price_dict = ebay_price_obj)
+	is_updated = ebay_handler.set_item_price(item_price_dict = ebay_price_obj)
 	# print('ebay_price_obj.get("Quantity")',ebay_obj_to_update.get("Quantity"))
 
 def testing_facade():
 	run_id = get_run_id()
 	ebay_handler = get_ebayhandler()
 	no_of_pages = get_total_no_of_pages(ebay_handler)
-	file_obj = open('ebay_amazon2.csv','wb')
-	csv_instance = csv.writer(file_obj,0)
-	csv_instance.writerow(["amazon_asin","amazon price","is_prime","in_stock","ebay_price","ebay_quantity","ebay_id"])
 	if no_of_pages and int(no_of_pages)>0:
 		no_of_pages = int(no_of_pages)
 		for page in range(1,no_of_pages+1):
@@ -165,9 +148,8 @@ def testing_facade():
 			proxy_handler = get_proxyhandler()
 			for ebay_item in ebay_items:
 				try:
-					amazon_handler.get_prime_detail = False
 					process_ebay_item(ebay_item,amazon_handler, proxy_handler,\
-						 ebay_handler, csv_instance,file_obj)
+						 ebay_handler)
 
 				except Exception as e:
 					# batch_log = create_batchlog_item(run_id = run_id,seller = current_seller_id,ebay_id=ebay_item["ItemID"],error_log = e)
