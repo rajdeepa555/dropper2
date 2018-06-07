@@ -9,8 +9,8 @@ from requests import Request, Session
 import time
 import lxml.html
 import datetime
-import urllib2
-# import urllib.request  as urllib2 
+# import urllib2
+import urllib.request  as urllib2 
 from random import randint
 
 UserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
@@ -122,7 +122,6 @@ class AmazonScraper(object):
         is_prime = False
         xpaths = []
         xpaths = ["//span[@id = 'merchant-info']//a[contains(text(),'%s')]","//div[@id='merchant-info']//a[contains(text(),'%s')]","//div[@id='shipsFromSoldBy_feature_div']//*[contains(text(),'%s')]","//span[@id='merchant-info'][contains(text(),'%s')]","//div[@id='merchant-info'][contains(text(),'%s')]"]
-        # xpaths = ["//span[@id = 'merchant-info']//a[contains(text(),'%s')]","//div[@id='merchant-info']//a[contains(text(),'%s')]"]
         for prime_string in prime_strings:
             for path in xpaths:
 
@@ -138,21 +137,14 @@ class AmazonScraper(object):
         if self.asin:
             url = "https://www.amazon.com/gp/offer-listing/%s?f_new=true&f_primeEligible=true" % (self.asin)
             headers = {'user-agent': user_agent}
-            # print(headers)
             r = requests.get(url, headers=headers,proxies={"https":proxy})
-            # print("headers",headers)
             doc  = lxml.html.document_fromstring(r.content)
             if_captcha = False
             if "api-services-support@amazon.com" in r.content or "Robot Captcha" in r.content:
                 if_captcha = True
                 print("Captcha found")
-                # f = open("Captcha.html","wb")
-                # f.write(r.content)
-                # f.close()
-                # raw_input("captcha found")
             price_list = []
             price_blocks = doc.xpath('//span[@class="a-size-large a-color-price olpOfferPrice a-text-bold"]/text()')
-            # print("price blocks",price_blocks)
             count = 0
             if len(price_blocks)>0:
                 for p_block in price_blocks:
@@ -185,14 +177,12 @@ class AmazonScraper(object):
             price_found = False
             for xpath in price_xpaths:
                 price = hxs.xpath(xpath)
-                print("price xpath checking",xpath,price)
                 if len(price)>0:
                     price = price[0]
                     price_found = True
                     break
             if price_found == False:
                 price = ""
-            print("scraped price",price)
             self.response_dict.update({"price":price})
         except:
             log.debug("price not found")

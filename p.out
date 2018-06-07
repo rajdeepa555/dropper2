@@ -1,0 +1,1987 @@
+inside trading init file
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+('page no:', 1, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+HTTP Error 404: Not Found
+('final....', [None, None, None, None, None, '0', '332607557312'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813814808 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813394784 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B01A6UTQK8', '', False, False, None, '0', '332616662109'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813396728 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$80.64'])
+('scraped price', '$80.64')
+checking if prime
+('final....', ['B076GZSZQV', '$80.64', True, True, 104.40872560275545, '2', '332616662114'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813442072 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.00'])
+('scraped price', '$54.00')
+checking if prime
+('final....', ['B074PP2XD5', '$54.00', True, True, 73.82319173363949, '2', '332616662133'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B078KMGC11', None, None, None, None, '0', '332616662158'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813438408 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$40.89'])
+('scraped price', '$40.89')
+checking if prime
+('final....', ['B01J4XL1OC', '$40.89', True, True, 58.7715269804822, '2', '332616662166'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B00RXDBFTW', None, None, None, None, '0', '332616662168'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813830832 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$56.87'])
+('scraped price', '$56.87')
+checking if prime
+('final....', ['B0779JLGRH', '$56.87', True, True, 77.11825487944891, '2', '332616662171'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813648520 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'is_prime': False, 'price': '', 'in_stock': False, '503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813813080 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B01AT3IS8S', None, None, None, None, '0', '332616662230'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813647800 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121823104464 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B078GVRRC5', '', False, False, None, '0', '332616662265'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 2, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813828096 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$34.89'])
+('scraped price', '$34.89')
+checking if prime
+('final....', ['B06WRQVP3V', '$34.89', True, True, 51.882893226176805, '2', '332616662280'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813438760 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813437472 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B00BWTL8W2', '', False, False, None, '0', '332616662281'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813438408 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.98'])
+('scraped price', '$44.98')
+checking if prime
+('final....', ['B0006VBFM0', '$44.98', True, True, 63.467278989667044, '2', '332616662290'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813151824 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$48.69'])
+('scraped price', '$48.69')
+checking if prime
+('final....', ['B0711MVHVJ', '$48.69', True, True, 67.72675086107921, '2', '332616662327'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813801152 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.77'])
+('scraped price', '$44.77')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813828240 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B074PNRFJM', '', False, False, None, '0', '332616662386'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813578888 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'is_prime': False, 'price': '', 'in_stock': False, '503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813396152 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('error!!!', SSLError('The read operation timed out',))
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813812864 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$59.25'])
+('scraped price', '$59.25')
+checking if prime
+('final....', ['B00AS8RZZ2', '$59.25', True, True, 79.8507462686567, '2', '332616662417'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813439048 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$53.49'])
+('scraped price', '$53.49')
+checking if prime
+('final....', ['B00470S8SK', '$53.49', True, True, 73.23765786452354, '2', '332616662423'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813394352 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$48.17'])
+('scraped price', '$48.17')
+checking if prime
+('final....', ['B00SRDPR3M', '$48.17', True, True, 67.12973593570608, '2', '332616662427'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813595488 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$64.06'])
+('scraped price', '$64.06')
+checking if prime
+('final....', ['B006R43YS8', '$64.06', True, True, 85.3731343283582, '2', '332616662428'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 3, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813539872 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.81'])
+('scraped price', '$44.81')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813802448 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 1)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B01MT82VX1', '$58.78', True, True, 79.31113662456946, '2', '332616662429'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813573144 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$58.99'])
+('scraped price', '$58.99')
+checking if prime
+('final....', ['B00IS5VU5I', '$58.99', True, True, 79.55223880597016, '2', '332616662436'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813437832 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.42'])
+('scraped price', '$44.42')
+checking if prime
+('final....', ['B00F2BNKP4', '$44.42', True, True, 62.824339839265214, '2', '332616662447'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813579680 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$58.18'])
+('scraped price', '$58.18')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813811856 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B073ZGCFLL', '', True, False, None, '0', '332616662448'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813539224 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813394640 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B000MXGJXM', '', True, False, None, '0', '332616662454'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813442144 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$56.97'])
+('scraped price', '$56.97')
+checking if prime
+('final....', ['B073ZJS7T5', '$56.97', True, True, 77.23306544202066, '2', '332616662457'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813158512 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$87.57'])
+('scraped price', '$87.57')
+checking if prime
+('final....', ['B074PNP8WH', '$87.57', True, True, 112.36509758897817, '2', '332616662461'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813440632 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$37.48'])
+('scraped price', '$37.48')
+checking if prime
+('final....', ['B01J4XKER2', '$37.48', True, True, 54.8564867967853, '2', '332616662463'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813596208 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$83.59'])
+('scraped price', '$83.59')
+checking if prime
+('final....', ['B01DA1EWY0', '$83.59', True, True, 107.79563719862227, '2', '332616662468'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813828384 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$34.50'])
+('scraped price', '$34.50')
+checking if prime
+('final....', ['B0001ZUVAI', '$34.50', True, True, 51.43513203214695, '2', '332616662473'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 4, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813570912 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.68'])
+('scraped price', '$44.68')
+checking if prime
+('final....', ['B00F2BNP36', '$44.68', True, True, 63.12284730195178, '2', '332616662482'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813812288 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$92.73'])
+('scraped price', '$92.73')
+checking if prime
+('final....', ['B004OYURK6', '$92.73', True, True, 118.28932261768082, '2', '332616662487'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813397160 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$48.00'])
+('scraped price', '$48.00')
+checking if prime
+('final....', ['B0779KX986', '$48.00', True, True, 66.9345579793341, '2', '332616662491'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813159160 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$71.79'])
+('scraped price', '$71.79')
+checking if prime
+('final....', ['B01C4R3J9A', '$71.79', True, True, 94.25947187141216, '2', '332616662492'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813442216 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$43.00'])
+('scraped price', '$43.00')
+checking if prime
+('final....', ['B00F2BNP0Y', '$43.00', True, True, 61.19402985074627, '2', '332616662503'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813397016 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$100.45'])
+('scraped price', '$100.45')
+checking if prime
+('final....', ['B000KNE14S', '$100.45', True, True, 127.15269804822044, '2', '332616662506'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813539224 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813650968 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B076HCHQJB', '', False, False, None, '0', '332616662519'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813801512 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$138.39'])
+('scraped price', '$138.39')
+checking if prime
+('final....', ['B074PP2Y74', '$138.39', True, True, 170.71182548794488, '2', '332616662535'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813831192 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813626536 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B06XDBSXPZ', '', False, False, None, '0', '332616662537'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813648376 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.99'])
+('scraped price', '$44.99')
+checking if prime
+('final....', ['B000GZYKIM', '$44.99', True, True, 63.478760045924226, '2', '332616662538'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 5, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813125528 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$86.45'])
+('scraped price', '$86.45')
+checking if prime
+('final....', ['B074PMXTV3', '$86.45', True, True, 111.07921928817451, '2', '332616662541'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813796264 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$95.29'])
+('scraped price', '$95.29')
+checking if prime
+('final....', ['B00RXDBXD0', '$95.29', True, True, 121.2284730195178, '2', '332616662545'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813625528 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$48.19'])
+('scraped price', '$48.19')
+checking if prime
+('final....', ['B01M5JIOAE', '$48.19', True, True, 67.15269804822043, '2', '332616662547'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813537640 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813393560 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 2)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B004JKOCXS', '$93.49', True, True, 119.16188289322616, '2', '332616662550'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('The read operation timed out',)
+('final....', ['B00RXDBOFM', None, None, None, None, '0', '332616662557'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813800720 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$48.19'])
+('scraped price', '$48.19')
+checking if prime
+('final....', ['B074PL13LD', '$48.19', True, True, 67.15269804822043, '2', '332616662559'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B011IX2YNI', None, None, None, None, '0', '332616662560'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813428272 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$111.09'])
+('scraped price', '$111.09')
+checking if prime
+('final....', ['B000KIE11Q', '$111.09', True, True, 139.36854190585535, '2', '332616662563'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813568760 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$40.89'])
+('scraped price', '$40.89')
+checking if prime
+('final....', ['B01N7R6RIA', '$40.89', True, True, 58.7715269804822, '2', '332616662567'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813831120 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$44.85'])
+('scraped price', '$44.85')
+checking if prime
+('final....', ['B011BI8PCE', '$44.85', True, True, 63.318025258323765, '2', '332616662568'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 6, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813648376 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$56.29'])
+('scraped price', '$56.29')
+checking if prime
+('final....', ['B00NL3AMJW', '$56.29', True, True, 76.4523536165327, '2', '332616662570'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813158296 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$84.39'])
+('scraped price', '$84.39')
+checking if prime
+('final....', ['B004JKJ9FO', '$84.39', True, True, 108.71412169919633, '2', '332616662590'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813626464 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$94.99'])
+('scraped price', '$94.99')
+checking if prime
+('final....', ['B000HGW7F8', '$94.99', True, True, 120.88404133180252, '2', '332616662593'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B004418O0O', None, None, None, None, '0', '332616662594'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813538000 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$81.94'])
+('scraped price', '$81.94')
+checking if prime
+('final....', ['B01NBU40C5', '$81.94', True, True, 105.90126291618829, '2', '332616662599'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813126680 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$57.41'])
+('scraped price', '$57.41')
+checking if prime
+('final....', ['B00RXDBF60', '$57.41', True, True, 77.73823191733639, '2', '332616662601'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813579248 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.80'])
+('scraped price', '$54.80')
+checking if prime
+('final....', ['B01AT3IS7E', '$54.80', True, True, 74.74167623421354, '2', '332616662608'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813633576 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$112.99'])
+('scraped price', '$112.99')
+checking if prime
+('final....', ['B003ZAF6ZQ', '$112.99', True, True, 141.54994259471871, '2', '332616662611'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813581048 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813580400 whose fp = <socket._fileobject object at 0x7f70a6ef5450>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B078HFQP6Y', '', False, False, None, '0', '332616662614'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813621144 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$75.00'])
+('scraped price', '$75.00')
+checking if prime
+('final....', ['B00LMHNNX6', '$75.00', True, True, 97.93340987370838, '2', '332616662618'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 7, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813539800 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$81.16'])
+('scraped price', '$81.16')
+checking if prime
+('final....', ['B011K8TE16', '$81.16', True, True, 105.00574052812858, '2', '332616662619'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813631704 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$53.94'])
+('scraped price', '$53.94')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813634584 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B076H39RY4', '', False, False, None, '0', '332616662623'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813426544 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813633936 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 1)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B074PLDR1N', '$170.00', True, True, 207.00344431687716, '2', '332616662624'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813478072 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.83'])
+('scraped price', '$54.83')
+checking if prime
+('final....', ['B00EMUR0UW', '$54.83', True, True, 74.77611940298507, '2', '332616662630'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B000UX6OHK', None, None, None, None, '0', '332616662634'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813490000 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$50.51'])
+('scraped price', '$50.51')
+checking if prime
+('final....', ['B01N7R6L91', '$50.51', True, True, 69.81630309988519, '2', '332616662639'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B00F2BNP9A', None, None, None, None, '0', '332616662643'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813595632 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$95.00'])
+('scraped price', '$95.00')
+checking if prime
+('final....', ['B077GDHVXF', '$95.00', True, True, 120.8955223880597, '2', '332616662652'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813616832 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$45.01'])
+('scraped price', '$45.01')
+checking if prime
+('final....', ['B01AT3LHBI', '$45.01', True, True, 63.50172215843857, '2', '332616662675'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813620640 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$101.02'])
+('scraped price', '$101.02')
+checking if prime
+('final....', ['B00LMHN4ZI', '$101.02', True, True, 127.80711825487944, '2', '332616662679'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 8, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813621576 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$71.70'])
+('scraped price', '$71.70')
+checking if prime
+('final....', ['B00FP7DIXO', '$71.70', True, True, 94.14466130884041, '2', '332616662683'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813624736 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$75.16'])
+('scraped price', '$75.16')
+checking if prime
+('final....', ['B00LMHN7QY', '$75.16', True, True, 98.11710677382318, '2', '332616662691'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813477136 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$66.33'])
+('scraped price', '$66.33')
+checking if prime
+('final....', ['B074WCP4Q6', '$66.33', True, True, 87.97933409873708, '2', '332616662707'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813152040 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$43.82'])
+('scraped price', '$43.82')
+checking if prime
+('final....', ['B01M4OXH25', '$43.82', True, True, 62.13547646383467, '2', '332616662712'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813156352 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$53.49'])
+('scraped price', '$53.49')
+checking if prime
+('final....', ['B00470L7CY', '$53.49', True, True, 73.23765786452354, '2', '332616662713'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813631200 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('error!!!', SSLError('The read operation timed out',))
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813427912 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$67.70'])
+('scraped price', '$67.70')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813427120 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B01LM0Y8TK', '', False, False, None, '0', '332616662733'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813565384 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813801440 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B011J3I1MA', '', False, False, None, '0', '332616662753'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813562648 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$83.59'])
+('scraped price', '$83.59')
+checking if prime
+('final....', ['B01IFI1Y2G', '$83.59', True, True, 107.79563719862227, '2', '332616662758'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813477352 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$57.89'])
+('scraped price', '$57.89')
+checking if prime
+('final....', ['B01LPHBRRQ', '$57.89', True, True, 78.28932261768082, '2', '332616662763'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 9, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813626536 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$119.99'])
+('scraped price', '$119.99')
+checking if prime
+('final....', ['B00XM0KRIU', '$119.99', True, True, 149.5866819747417, '2', '332626703145'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813123800 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$94.95'])
+('scraped price', '$94.95')
+checking if prime
+('final....', ['B078Y5R33B', '$94.95', True, True, 120.83811710677382, '2', '332626703234'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813159448 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$71.27'])
+('scraped price', '$71.27')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813158800 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 3)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B0718YMK4R', '$71.27', True, True, 93.65097588978185, '2', '332626703355'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813634368 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$118.94'])
+('scraped price', '$118.94')
+checking if prime
+('final....', ['B01HTVHQCC', '$118.94', True, True, 148.38117106773825, '2', '332626703360'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813564304 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$12.46'])
+('scraped price', '$12.46')
+checking if prime
+('final....', ['B00HEVERI4', '$12.46', True, True, 26.130884041331804, '2', '332626703359'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813572208 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$73.98'])
+('scraped price', '$73.98')
+checking if prime
+('final....', ['B00EJIRICW', '$73.98', True, True, 96.76234213547646, '2', '332626703379'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813123152 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$119.00'])
+('scraped price', '$119.00')
+checking if prime
+('final....', ['B00X9V6AZ6', '$119.00', True, True, 148.4500574052813, '2', '332626703382'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813668208 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$84.95'])
+('scraped price', '$84.95')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813563728 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B01AA7AQU6', '', True, False, None, '0', '332626703390'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813573216 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$82.56'])
+('scraped price', '$82.56')
+checking if prime
+('final....', ['B0756C9R95', '$82.56', True, True, 106.61308840413318, '2', '332626703392'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813623296 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$75.43'])
+('scraped price', '$75.43')
+checking if prime
+('final....', ['B005FN0ZA2', '$75.43', True, True, 98.4385763490241, '2', '332626703393'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 10, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121823151240 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$110.88'])
+('scraped price', '$110.88')
+checking if prime
+('final....', ['B01N2WHP4G', '$110.88', True, True, 139.12743972445463, '2', '332626703401'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813802304 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$78.98'])
+('scraped price', '$78.98')
+checking if prime
+('final....', ['B002TSBTF6', '$78.98', True, True, 102.5028702640643, '2', '332626703403'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813562288 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121823161304 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B01N6PUXSR', '', False, False, None, '0', '332626703404'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813428920 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$64.93'])
+('scraped price', '$64.93')
+checking if prime
+('final....', ['B0041L6KIA', '$64.93', True, True, 86.38346727898966, '2', '332626703408'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813813224 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('error!!!', SSLError('The read operation timed out',))
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813813800 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$47.40'])
+('scraped price', '$47.40')
+checking if prime
+('final....', ['B004D9NB96', '$47.40', True, True, 66.24569460390356, '2', '332626703415'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813441568 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$299.99'])
+('scraped price', '$299.99')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813442072 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 2)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B002MLDBV0', '$299.99', True, True, 356.2456946039036, '2', '332626703416'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B01B170WU8', None, None, None, None, '0', '332626703418'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813565384 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$102.99'])
+('scraped price', '$102.99')
+checking if prime
+('final....', ['B01MRIQAOT', '$102.99', True, True, 130.06888633754303, '2', '332626703425'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813801728 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813124376 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B076X2JLHF', '', True, False, None, '0', '332626703426'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 11, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813564160 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$70.41'])
+('scraped price', '$70.41')
+checking if prime
+('final....', ['B00ATULL0E', '$70.41', True, True, 92.66360505166475, '2', '332626703429'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813634368 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813828096 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B000PYBCT4', '', False, False, None, '0', '332626703432'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813579248 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$72.95'])
+('scraped price', '$72.95')
+checking if prime
+('final....', ['B004FH6L8Y', '$72.95', True, True, 95.57979334098737, '2', '332626703433'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813441352 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813193288 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 1)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 0)
+('final....', ['B007HN6USO', '$199.99', True, False, None, '0', '332626703434'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813195520 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$88.99'])
+('scraped price', '$88.99')
+checking if prime
+('final....', ['B00OSPERQQ', '$88.99', True, True, 113.99540757749712, '2', '332626703435'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813192928 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$172.95'])
+('scraped price', '$172.95')
+checking if prime
+('final....', ['B005FMYWZW', '$172.95', True, True, 210.39035591274398, '2', '332626703436'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813394928 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$112.95'])
+('scraped price', '$112.95')
+checking if prime
+('final....', ['B01MQTX7XH', '$112.95', True, True, 141.50401836969002, '2', '332626703442'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813620064 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$83.59'])
+('scraped price', '$83.59')
+checking if prime
+('final....', ['B005FN12BS', '$83.59', True, True, 107.79563719862227, '2', '332626703444'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813648592 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$127.13'])
+('scraped price', '$127.13')
+checking if prime
+('final....', ['B003MYYJD0', '$127.13', True, True, 157.7841561423651, '2', '332626703446'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813618344 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$49.99'])
+('scraped price', '$49.99')
+checking if prime
+('final....', ['B00962GV3S', '$49.99', True, True, 69.21928817451206, '2', '332626703450'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 12, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813426688 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$94.99'])
+('scraped price', '$94.99')
+checking if prime
+('final....', ['B008LQT4L6', '$94.99', True, True, 120.88404133180252, '2', '332626703455'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813634296 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$127.46'])
+('scraped price', '$127.46')
+checking if prime
+('final....', ['B010EA7UVW', '$127.46', True, True, 158.1630309988519, '2', '332626703457'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813827952 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$99.95'])
+('scraped price', '$99.95')
+checking if prime
+('final....', ['B06XBX156R', '$99.95', True, True, 126.57864523536165, '2', '332626703458'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813314952 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813440992 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 1)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 18)
+('final....', ['B073HGFL7T', '$104.97', True, True, 132.34213547646382, '2', '332626703464'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813827736 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$59.48'])
+('scraped price', '$59.48')
+checking if prime
+('final....', ['B000GXAUQ0', '$59.48', True, True, 80.11481056257175, '2', '332626703465'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813429856 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$119.95'])
+('scraped price', '$119.95')
+checking if prime
+('final....', ['B06XXJHNL8', '$119.95', True, True, 149.54075774971298, '2', '332626703466'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error Tunnel connection failed: 404 Not Found>
+('final....', ['B004MSU88K', None, None, None, None, '0', '332626703468'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813338448 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$80.02'])
+('scraped price', '$80.02')
+checking if prime
+('final....', ['B00HFH9S9A', '$80.02', True, True, 103.69690011481056, '2', '332626703470'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813314880 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$126.98'])
+('scraped price', '$126.98')
+checking if prime
+('final....', ['B004V96OKQ', '$126.98', True, True, 157.6119402985075, '2', '332626703471'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813312072 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$99.95'])
+('scraped price', '$99.95')
+checking if prime
+('final....', ['B0159W3EII', '$99.95', True, True, 126.57864523536165, '2', '332626703477'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 13, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813336792 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$58.33'])
+('scraped price', '$58.33')
+checking if prime
+('final....', ['B004GVRRMI', '$58.33', True, True, 78.79448909299656, '2', '332626703479'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813831408 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813631200 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B003APJRI8', '', False, False, None, '0', '332626703480'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813284696 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$71.42'])
+('scraped price', '$71.42')
+checking if prime
+('final....', ['B01M7Y7CJ2', '$71.42', True, True, 93.82319173363949, '2', '332626703482'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121823121208 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$94.95'])
+('scraped price', '$94.95')
+checking if prime
+('final....', ['B010EA7RME', '$94.95', True, True, 120.83811710677382, '2', '332626703484'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813284768 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$74.95'])
+('scraped price', '$74.95')
+checking if prime
+('final....', ['B00KJ30H6U', '$74.95', True, True, 97.8760045924225, '2', '332626703485'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813491224 whose fp = <socket._fileobject object at 0x7f70a6ef55d0>>)
+('error!!!', SSLError('The read operation timed out',))
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813195088 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$59.99'])
+('scraped price', '$59.99')
+checking if prime
+('final....', ['B00ENF18IG', '$59.99', True, True, 80.70034443168772, '2', '332626703493'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813295688 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$103.94'])
+('scraped price', '$103.94')
+checking if prime
+('final....', ['B01N5D9WUV', '$103.94', True, True, 131.15958668197473, '2', '332626703494'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813811640 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$74.95'])
+('scraped price', '$74.95')
+checking if prime
+('final....', ['B00FALQB52', '$74.95', True, True, 97.8760045924225, '2', '332626703496'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813638536 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$82.95'])
+('scraped price', '$82.95')
+checking if prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813295400 whose fp = <socket._fileobject object at 0x7f70a6ef53d0>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 3)
+('stock xpath', '//div[@class="a-row a-spacing-mini olpOffer"]//div[@class="olpBadgeContainer"]//following-sibling::ul//text()', 36)
+('final....', ['B01HXP349S', '$89.95', True, True, 115.097588978186, '2', '332626703502'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 14, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813196168 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$50.00'])
+('scraped price', '$50.00')
+checking if prime
+('final....', ['B01487XQJM', '$50.00', True, True, 69.23076923076923, '2', '332626703503'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813339528 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$51.98'])
+('scraped price', '$51.98')
+checking if prime
+('final....', ['B0006AAS7E', '$51.98', True, True, 71.50401836969, '2', '332626703504'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813594408 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$80.15'])
+('scraped price', '$80.15')
+checking if prime
+('final....', ['B00962GZJ8', '$80.15', True, True, 103.85763490241102, '2', '332626703506'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813194080 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$69.22'])
+('scraped price', '$69.22')
+checking if prime
+('final....', ['B00962GV2E', '$69.22', True, True, 91.29735935706084, '2', '332626703509'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813286856 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$84.99'])
+('scraped price', '$84.99')
+checking if prime
+('final....', ['B00FRFDHL2', '$84.99', True, True, 109.40298507462686, '2', '332626703515'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813635800 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$138.94'])
+('scraped price', '$138.94')
+checking if prime
+('final....', ['B06VW2VGZ8', '$138.94', True, True, 171.34328358208955, '2', '332626703510'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B00EZQN37W', None, None, None, None, '0', '332626703512'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813439984 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_saleprice"]/text()', [])
+('price xpath checking', '//span[@class="a-size-medium a-color-price offer-price a-text-normal"]/text()', [])
+('scraped price', '')
+price not found and so we are not scraping prime
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813440272 whose fp = <socket._fileobject object at 0x7f70a6ef5350>>)
+('price xpath', "//span[contains(text(),'Prime TM')]/parent::i/parent::span/parent::div/span[contains(@class, 'a-size-large')]//text()", 0)
+('final....', ['B0722STD5K', '', False, False, None, '0', '332626703514'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813297200 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$112.95'])
+('scraped price', '$112.95')
+checking if prime
+('final....', ['B072269D1R', '$112.95', True, True, 141.50401836969002, '2', '332626703517'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813650968 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$75.09'])
+('scraped price', '$75.09')
+checking if prime
+('final....', ['B00T62EOF0', '$75.09', True, True, 98.03673938002296, '2', '332626703524'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 15, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813801800 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$77.95'])
+('scraped price', '$77.95')
+checking if prime
+('final....', ['B014JML4PO', '$77.95', True, True, 101.3203214695752, '2', '332626703530'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813393704 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$69.95'])
+('scraped price', '$69.95')
+checking if prime
+('final....', ['B000GXAUYW', '$69.95', True, True, 92.13547646383468, '2', '332626703535'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813811928 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$61.11'])
+('scraped price', '$61.11')
+checking if prime
+('final....', ['B000GX6SR0', '$61.11', True, True, 81.98622273249138, '2', '332626703538'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813828744 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$99.95'])
+('scraped price', '$99.95')
+checking if prime
+('final....', ['B003MYR658', '$99.95', True, True, 126.57864523536165, '2', '332626703542'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813440920 whose fp = <socket._fileobject object at 0x7f70a6ef5650>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$109.95'])
+('scraped price', '$109.95')
+checking if prime
+('final....', ['B00TKGWB0C', '$109.95', True, True, 138.0597014925373, '2', '332626703539'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813573432 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$107.72'])
+('scraped price', '$107.72')
+checking if prime
+('final....', ['B00OSPE2ZM', '$107.72', True, True, 135.49942594718715, '2', '332626703540'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813429856 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$78.99'])
+('scraped price', '$78.99')
+checking if prime
+('final....', ['B000JQJS6M', '$78.99', True, True, 102.51435132032147, '2', '332626703545'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813580112 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$71.99'])
+('scraped price', '$71.99')
+checking if prime
+('final....', ['B004FGA5AA', '$71.99', True, True, 94.4776119402985, '2', '332626703546'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813538864 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$83.99'])
+('scraped price', '$83.99')
+checking if prime
+('final....', ['B011N5P45Q', '$83.99', True, True, 108.25487944890929, '2', '332626703547'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813298280 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$84.44'])
+('scraped price', '$84.44')
+checking if prime
+('final....', ['B00J4JKPBC', '$84.44', True, True, 108.7715269804822, '2', '332626703548'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 16, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813286856 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$93.89'])
+('scraped price', '$93.89')
+checking if prime
+('final....', ['B00WUAMKJW', '$93.89', True, True, 119.6211251435132, '2', '332626703549'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813312792 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$179.19'])
+('scraped price', '$179.19')
+checking if prime
+('final....', ['B0722JGR8X', '$179.19', True, True, 217.55453501722158, '2', '332626703550'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813831048 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.99'])
+('scraped price', '$54.99')
+checking if prime
+('final....', ['B000FVE3DE', '$54.99', True, True, 74.9598163030999, '2', '332626703552'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813638608 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$109.00'])
+('scraped price', '$109.00')
+checking if prime
+('final....', ['B01MRXF9F2', '$109.00', True, True, 136.96900114810563, '2', '332626703553'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813538432 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$84.99'])
+('scraped price', '$84.99')
+checking if prime
+('final....', ['B00EJISE6Q', '$84.99', True, True, 109.40298507462686, '2', '332626703558'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error ('_ssl.c:574: The handshake operation timed out',)>
+('final....', ['B001T9NWUQ', None, None, None, None, '0', '332626703559'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813802952 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.89'])
+('scraped price', '$54.89')
+checking if prime
+('final....', ['B06XDBN2WM', '$54.89', True, True, 74.84500574052812, '2', '332626703560'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813395792 whose fp = <socket._fileobject object at 0x7f70a6ef52d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$81.99'])
+('scraped price', '$81.99')
+checking if prime
+('final....', ['B01487XRDC', '$81.99', True, True, 105.95866819747415, '2', '332626703563'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813489856 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$86.99'])
+('scraped price', '$86.99')
+checking if prime
+('final....', ['B000UQ23OU', '$86.99', True, True, 111.699196326062, '2', '332626703564'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813426976 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$128.30'])
+('scraped price', '$128.30')
+checking if prime
+('final....', ['B000FVE3A2', '$128.30', True, True, 159.13892078071183, '2', '332626703567'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+('page no:', 17, ' of ', 64)
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'GetMyeBaySelling', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813311928 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$138.55'])
+('scraped price', '$138.55')
+checking if prime
+('final....', ['B06XZWFFT1', '$138.55', True, True, 170.9070034443169, '2', '332626703568'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813619416 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$51.95'])
+('scraped price', '$51.95')
+checking if prime
+('final....', ['B00962GV4M', '$51.95', True, True, 71.46957520091848, '2', '332626703570'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813430216 whose fp = <socket._fileobject object at 0x7f70a6ef54d0>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$54.99'])
+('scraped price', '$54.99')
+checking if prime
+('final....', ['B000GX8WA6', '$54.99', True, True, 74.9598163030999, '2', '332626703571'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813570912 whose fp = <socket._fileobject object at 0x7f70a6ef5150>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$107.08'])
+('scraped price', '$107.08')
+checking if prime
+('final....', ['B000UEP6FU', '$107.08', True, True, 134.7646383467279, '2', '332626703573'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('self.response', <addinfourl at 140121813156424 whose fp = <socket._fileobject object at 0x7f70a6ef5550>>)
+('price xpath checking', '//*[@id="priceblock_dealprice"]/text()', [])
+('price xpath checking', '//span[@id="priceblock_ourprice"]/text()', ['$76.99'])
+('scraped price', '$76.99')
+checking if prime
+('final....', ['B00ATULLC2', '$76.99', True, True, 100.21814006888633, '2', '332626703575'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+('The read operation timed out',)
+('final....', ['B00ATUJ700', None, None, None, None, '0', '332626703577'])
+{'X-EBAY-API-SITEID': '0', 'X-EBAY-API-DEV-NAME': u'dabbd5b4-669d-4115-a646-3d5e8d7cee90', 'X-EBAY-API-CERT-NAME': u'PRD-2cc9f5facead-42c3-4ac6-b5a2-51c7', 'X-EBAY-API-COMPATIBILITY-LEVEL': '837', 'X-EBAY-API-APP-NAME': u'ArmandoB-andy-PRD-d2cc9f5fa-2e55dd3b', 'X-EBAY-API-CALL-NAME': 'ReviseFixedPriceItem', 'Content-Type': 'text/xml'}
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+<urlopen error timed out>
+('res in 503', {'503': True})
+inside scrape_with_error
+insedie _execute2
+HTTP Error 503: Service Unavailable
+I think proxies are not working
